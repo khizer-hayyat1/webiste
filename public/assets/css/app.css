@@ -1,0 +1,39 @@
+/* KHIZU Luxury Stationery Global Custom Styles */
+
+/* Subtle smooth transitions */
+* {
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #020e21;
+}
+::-webkit-scrollbar-thumb {
+  background: #29354a;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #fabd0d;
+}
+
+/* Material symbol baseline alignment */
+.material-symbols-outlined {
+  font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+  vertical-align: middle;
+}
+
+/* Lay-flat shadow & highlight depth */
+.executive-glow {
+  box-shadow: 0 0 25px rgba(11, 79, 196, 0.15), 0 20px 40px -15px rgba(1, 12, 31, 0.8);
+}
+
+.gold-glow {
+  box-shadow: 0 0 16px rgba(250, 189, 13, 0.25);
+}
